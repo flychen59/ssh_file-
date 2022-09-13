@@ -1,0 +1,18 @@
+主机：
+223.195.240.22
+
+用户名：
+root
+
+密码：
+cyp19970059
+
+端口：
+docker 端口
+
+连不上的时候：
+/etc/init.d/ssh restart
+apt-get install openssh-server openssh-client vim -y
+vim /etc/ssh/sshd_config
+PermitRootLogin yes
+/etc/init.d/ssh restart
