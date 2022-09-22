@@ -5,12 +5,13 @@
 root
 
 密码：
-cyp19970059
+cyp19970509
 
 端口：
 docker 端口
 
 连不上的时候：
+passwd
 /etc/init.d/ssh restart
 apt-get install openssh-server openssh-client vim -y
 vim /etc/ssh/sshd_config
